@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
   s.require_paths = ["lib"]
 
-  s.add_dependency "rails", "~> 4"
+  s.add_dependency "rails", ">= 4"
   s.add_runtime_dependency 'ruby-progressbar'
   s.add_runtime_dependency 'rubyzip'
 
